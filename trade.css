@@ -1,7 +1,18 @@
 body {
 	margin: 0px;
+	margin-left: 300px;
 	padding: 0px;
 	background-color: black;
+	font-family: "Montserrat", sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	unselectable= on;
+	onselectstart= return false;  
+	onmousedown= return false;
 }
 
 #page {
@@ -9,8 +20,6 @@ body {
 	background-repeat: no-repeat;
 /*	background-size: contain;
 */	background-position: center;
-	width: 1544px;
-	height: 843px;
 	background-color: #101010;
 	overflow: hidden;
 	padding: 0px;
@@ -23,6 +32,24 @@ body > div {
 	background-color: #222222;
 	color: white;
 	border-radius: 4px;
+}
+
+div#title {
+	font-size: 50pt;
+	background-color: #000000;
+	top: 700px;
+	left: 550px;
+	display: block;
+	padding: 20px;
+}
+
+#title > img {
+	-ms-transform: scaleY(.75);
+	-webkit-transform: scaleY(.75);
+	transform: scaleY(.75);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 500px;
 }
 
 body > img {
@@ -42,35 +69,41 @@ h1 {
 	color: #8936E0;
 }
 
-img.a {
+/*img.a {
 	left: 18px;
 	top: 422px;
 	width: 127px;
 }
 
-div.a {
+div#aa {
 	left: 25px;
-	top: 390px;
+	top: 350px;
 }
 
+div#ab {
+	left: 25px;
+	top: 500px;
+}*/
+
 img.b {
-	left: 144px;
+	left: 18px;
 	top: 268px;
-	width: 169px;
+	width: 316px;
 }
 
 div#ba {
-	left: 330px;
+	left: 700px;
 	top: 250px;
+	width: 400px;
 }
 
 div#bb {
-	left: 330px;
-	top: 530px;	
+	left: 370px;
+	top: 250px;	
 }
 
 div.b > img { /* img is 200x223 */
-	width: 200px;
+	width: 250px;
 }
 
 img.c {
@@ -79,9 +112,19 @@ img.c {
 	width: 324px;
 }
 
-div.c {
-	left: 600px;
-	top: 300px;
+div#ca {
+	left: 20px;
+	top: 250px;
+	width: 300px;
+}
+
+div#cb {
+	left: 700px;
+	top: 250px;
+}
+
+div.c > img {
+	height: 300px;
 }
 
 img.d {
@@ -90,9 +133,19 @@ img.d {
 	width: 164px;
 }
 
-div.d {
-	left: 940px;
-	top: 400px;
+div#da {
+	left: 1150px;
+	top: 250px;
+	width: 300px;
+}
+
+div#db {
+	left: 400px;
+	top: 250px;
+}
+
+div.d > img{
+	height: 300px;
 }
 
 img.e {
@@ -102,26 +155,37 @@ img.e {
 }
 
 div#ea {
-	left: 1150px;
-	top: 190px;
+	left: 100px;
+	top: 250px;
+	width: 400px;
 }
 
 div#eb {
-	left: 1150px;
-	top: 580px;
+	left: 600px;
+	top: 250px;
 }
 
 div.e > img {
-	width: 320px;
+	width: 500px;
 }
 
 img.f {
 	left: 1150px;
-	top: 316px;
-	width: 142px;
+	top: 265px;
+	width: 202px;
 }
 
-div.f {
-	left: 1150px;
-	top: 580px;
+div#fa {
+	left: 100px;
+	top: 250px;
+	width: 400px;
+}
+
+div#fb {
+	left: 600px;
+	top: 200px;
+}
+
+div.f > img {
+	width: 500px;
 }
